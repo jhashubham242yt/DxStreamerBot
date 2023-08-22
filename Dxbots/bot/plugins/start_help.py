@@ -69,7 +69,7 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<i>Something went wrong</i> <b> <a href='https://t.me/LazyPrincessSupport'>CLICK HERE FOR SUPPORT </a></b>",
+                text="<i>Something went wrong</i> <b> <a href='https://t.me/Eagle_Movies_Official'>CLICK HERE FOR SUPPORT </a></b>",
                 
                 disable_web_page_preview=True)
             return
@@ -117,7 +117,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Support](https://t.me/DXMODS_Support).",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Support](https://t.me/Eagle_Movies_Official).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
@@ -127,8 +127,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ Owner", url="https://github.com/DX-MODS")],
-                [InlineKeyboardButton("💥 Source Code", url="https://github.com/DX-MODS/DxStreamerBot")]
+                [InlineKeyboardButton("💁‍♂️ Owner", url="https://github.com")],
+                [InlineKeyboardButton("💥 Source Code", url="https://github.com")]
             ]
         )
     )
